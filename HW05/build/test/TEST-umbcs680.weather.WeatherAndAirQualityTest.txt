@@ -1,0 +1,23 @@
+Testcase: umbcs680.weather.WeatherAndAirQualityTest
+Test: testRemoveObserverWeather() took 177 milli sec(s)
+Test: testClearObservers() took 3 milli sec(s)
+Test: testRemoveObserverAirQuality() took 2 milli sec(s)
+Test: testNotifyObserversAirQuality() took 16 milli sec(s)
+Test: testNotifyObserversWeather() took 13 milli sec(s)
+Test: testAddObserverWeather() took 2 milli sec(s)
+Test: testAddObserverAirQuality() took 2 milli sec(s)
+Tests run: 7, Failures: 0, Skipped: 0, Aborted: 0, Time elapsed: 356 milli sec(s)
+------------- Standard Output ---------------
+[Environmental Agency] -> Air Quality Update Received:
+Air Quality Data [AQI=180.00, CO2 Level=600.00 ppm, Pollution Level=180.00 µg/m3]
+[Environmental Agency] -> High Pollution Alert! Advising the public to limit outdoor activities.
+[Environmental Agency] -> High CO2 levels detected. Investigating industrial emissions.
+[Display Panel] Weather Update:
+Temperature: 105.0°F
+Humidity: 90.0%
+Pressure: 1012.0 hPa
+Wind Speed: 15.0 mph
+Temperature Trend: stable
+[Display Panel]-> High Temperature Alert!
+[Display Panel]-> High Humidity Alert!
+------------- ---------------- ---------------
