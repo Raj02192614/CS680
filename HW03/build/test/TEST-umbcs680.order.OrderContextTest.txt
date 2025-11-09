@@ -1,0 +1,41 @@
+Testcase: umbcs680.order.OrderContextTest
+Test: testOrderReturnedStateBehavior() took 130 milli sec(s)
+Test: testOrderShippedStateBehavior() took 2 milli sec(s)
+Test: testOrderDeliveredStateBehavior() took 2 milli sec(s)
+Test: testOrderRefundedStateBehavior() took 3 milli sec(s)
+Test: testOrderPlacedStateBehavior() took 1 milli sec(s)
+Tests run: 5, Failures: 0, Skipped: 0, Aborted: 0, Time elapsed: 244 milli sec(s)
+------------- Standard Output ---------------
+Order placed successfully.
+Order shipped.
+Order delivered.
+Order returned.
+Can't ship. Order returned.
+Can't deliver. Order returned.
+Refund processed.
+Order placed successfully.
+Order shipped.
+Can't return. Order not delivered yet.
+Can't refund. Return not initiated.
+Order delivered.
+Order placed successfully.
+Order shipped.
+Order delivered.
+Already delivered. Can't ship again.
+Return required for refund.
+Order returned.
+Order placed successfully.
+Order shipped.
+Order delivered.
+Order returned.
+Refund processed.
+Order refunded. Can't ship.
+Order refunded. Can't deliver.
+Order refunded. Can't return.
+Already refunded.
+Order placed successfully.
+Can't deliver. Order not shipped yet.
+Can't return. Order not delivered yet.
+Can't refund. Return not initiated.
+Order shipped.
+------------- ---------------- ---------------
